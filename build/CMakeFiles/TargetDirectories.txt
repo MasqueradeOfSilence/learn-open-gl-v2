@@ -1,0 +1,3 @@
+/Users/Alex/Personal/learn-open-gl-v2/build/CMakeFiles/learn-opengl-v2.dir
+/Users/Alex/Personal/learn-open-gl-v2/build/CMakeFiles/edit_cache.dir
+/Users/Alex/Personal/learn-open-gl-v2/build/CMakeFiles/rebuild_cache.dir
