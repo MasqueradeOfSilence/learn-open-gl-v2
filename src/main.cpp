@@ -50,7 +50,6 @@ void framebufferSizeCallback(GLFWwindow* window, int width, int height)
 void handleViewportAdjustments(GLFWwindow* window)
 {
 	glfwSetFramebufferSizeCallback(window, framebufferSizeCallback);  
-
 }
 
 int main()
