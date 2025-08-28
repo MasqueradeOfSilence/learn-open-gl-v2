@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/Users/Alex/Personal/learn-open-gl-v2/src/glad.c" "CMakeFiles/learn-opengl-v2.dir/src/glad.c.o" "gcc" "CMakeFiles/learn-opengl-v2.dir/src/glad.c.o.d"
   "/Users/Alex/Personal/learn-open-gl-v2/src/main.cpp" "CMakeFiles/learn-opengl-v2.dir/src/main.cpp.o" "gcc" "CMakeFiles/learn-opengl-v2.dir/src/main.cpp.o.d"
   )
 

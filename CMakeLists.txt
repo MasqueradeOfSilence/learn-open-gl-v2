@@ -7,8 +7,11 @@ set(CMAKE_CXX_STANDARD 17)
 find_package(OpenGL REQUIRED)
 find_package(glfw3 REQUIRED)
 
-# Add executable
-add_executable(${PROJECT_NAME} src/main.cpp)
+# Add executable (include glad.c)
+add_executable(${PROJECT_NAME} src/main.cpp src/glad.c)
+
+# Include directories for glad and KHR
+target_include_directories(${PROJECT_NAME} PRIVATE ${CMAKE_SOURCE_DIR}/src)
 
 # Link libraries
 target_link_libraries(${PROJECT_NAME} OpenGL::GL glfw)
