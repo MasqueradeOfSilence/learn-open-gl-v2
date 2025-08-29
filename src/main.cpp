@@ -236,7 +236,6 @@ int main()
 
 	// VAOs/VBOs
 	unsigned int VAO, VBO;
-	// storeVertexDataInMemory(vertices, VBO);
 	useVertexArray(VAO, VBO, vertices, sizeof(vertices));
 	setVertexAttributesPointers();
 	unbind();
